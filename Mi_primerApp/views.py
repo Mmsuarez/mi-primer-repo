@@ -9,3 +9,5 @@ def saludo (request):
     return HttpResponse (f"Hola Mundo {fecha_ahora}")
 
 
+def hola (request, nombre):
+    return HttpResponse(f'Mi nombre es: {nombre}')
